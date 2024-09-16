@@ -1,0 +1,63 @@
+.row {
+    justify-content: center;
+    display: flex;
+}
+
+.col-sm-8 > p {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.col-sm-8 h1 {
+    font-size: 2.3rem;
+}
+
+.col-sm-4 > img {
+    height: 88%;
+    width: auto;
+    margin-left: 5%;
+}
+
+.col-sm-6 > img {
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.col-sm-6 > p {
+    font-size: 1.23rem;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.img-thumbnail {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 150%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* Asegura que no exceda el tamaño del contenedor */
+  }
+  
+  .img-thumbnail:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+  }
+  
+  /* Ajustes para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .img-thumbnail {
+      margin-bottom: 20px;
+    }
+  }
+
+  .row-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .btn-group {
+    font-size: 16pt;
+    text-align: center;
+  }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>Mi Página Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header con barra de navegación -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+       <!--<a class="navbar-brand" href="#">Mi Web</a> --> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Foro Penal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Sección principal de contenido con texto e imagen -->
+    <section class="container my-5">
+        <div class="row">
+        <div class="col-sm-8">
+            <h1>Kennedy Tejeda</h1>
+
+            <p>Kennedy Tejeda es un joven abogado venezolano, defensor de derechos humanos y miembro de la 
+            organización Foro Penal. El 2 de agosto de 2024, fue detenido arbitrariamente mientras ofrecía 
+            asistencia legal a personas arrestadas durante protestas en el estado Carabobo. Tejeda estuvo 
+            desaparecido por varias horas antes de que su detención fuera confirmada, y fue trasladado a la 
+            sede de la Dirección General de Contrainteligencia Militar (DGCIM) en Valencia.
+            Las autoridades no han permitido que tenga acceso a una defensa privada ni que su familia lo visite 
+            regularmente y está siendo acusado de cargos graves como terrorismo y discurso de odio, sin 
+            especificarse claramente los motivos. Diversas oganizaciones, como Amnistía Internacional y la 
+            Fundación Robert F. Kennedy Human Rights, han exigido su liberación inmediata, denunciando la 
+            persecución contra defensores de derechos humanos en Venezuela​</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="img/Kennedy_Tejeda_Abogado.jpg" class="img-fluid" alt="Kennedy">
+        </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+        <div class="col-sm-6">
+            <img id="recorrido" src="img/recorrido.png" class="img-fluid" alt="recorrido">
+        </div>
+        <div class="col-sm-6">
+            <p>Kennedy fue trasladado desde Valencia en el estado Carabobo a centro penitenciario
+            Tocorón en el Estado Aragua, el cual está a unos 131 km de Montalbán, lugar de residencia
+            de  Kennedy y sus padres. Su madre viaja todos los días en busca de poder visitarlo, viajando unas
+            tres horas y con al menos tres conexiones. Comenta: "Uno regresa a casa más triste de lo que sale. 
+            Sin saber qué va a pasar con él. Somos varias madres que vivimos lejos, pasando pro este desgaste mental, 
+            físico, económico y pare de contar. Cada día que pasa aumenta la angustia y la impotencia. Lo más 
+            horrible es no saber nada de ellos"  ​</p>
+        </div>
+        </div>
+    </section>   
+
+    <div class="row-container">
+        <button type="button" class="btn-group justify-content-center" onclick="location.href='img.html'" >Ver imagénes del Foro Penal</button>
+    </div>
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
